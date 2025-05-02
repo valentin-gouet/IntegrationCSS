@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    /* margin: auto; crée un bug pour le justify-content ; */
+    height: 100px;
+    padding: 30px 20px;
+    background-color: #F5F7FA;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    /* width: auto; */
+    /* justify-content: space-between; */
+    gap: 2rem;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: start;
+}
+
+.a_nav {
+    text-decoration: none;
+}
+
+.h1 {
+    font-family: "Inter", sans-serif;
+    color:#4D4D4D;
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 600;
+    align-self: stretch;
+    margin-bottom: 1rem;
+    width: fill;
+}
+
+.h2 {
+    font-family: "Inter", sans-serif;
+    color:#4D4D4D;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.h3 {
+    font-family: "Inter", sans-serif;
+    color:#4D4D4D;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.p {
+    font-family: "Inter", sans-serif;
+    color: #18191F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.p_center {
+    font-family: "Inter", sans-serif;
+    color: #18191F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.txt_14 {
+    font-family: "Inter", sans-serif;
+    color: #717171;
+    ;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.fit_content {
+    width: fit-content;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_between {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt_green {
+    color: #4CAF4F;
+}
+
+.txt_white {
+    color: #FFFFFF;
+}
+
+.txt_center {
+    text-align: center;
+}
+
+button {
+    border: none;
+}
+
+.button_empty {
+    display:flex;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border-color: none;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+
+.button_full_small {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: fit-content ;
+    height: fit-content;
+}
+
+.button_full_default {
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.connect {
+    gap: 20px;
+    align-items: center;
+}
+
+.gap_1rem {
+    gap: 1rem;
+}
+
+.gap_2rem {
+    gap: 2rem;
+}
+
+section {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.hero {
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F7FA;
+    padding: 96px 0;
+}
+
+.img_hero {
+    width: 391px;
+    height: 407;
+}
+
+.clients_section {
+    width: 100%;
+    gap: 1rem;
+}
+
+.clients_text {
+    padding: 70px 0 0 0;
+    gap: 8px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.clients_logos {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px
+}
+
+.community_section {
+    margin-top: 40px;
+    gap: 1rem;
+    padding-bottom: 70px;
+}
+
+.community_text {
+    gap: 0.5rem;
+}
+
+.services {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services_text {
+    width: 90%
+}
+
+.community_cards {
+    width: 20%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 24px 32px;
+}
+
+.services_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.unlock {
+    padding: 40px 0;
+    margin: auto;
+    background-color:#F5F7FA;
+}
