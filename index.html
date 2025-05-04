@@ -8,97 +8,297 @@
 </head>
 <body>
     <header>
-        <img src="\images\Logo.png" alt="logo de l'entreprise Nexcent"/>
-        <nav>
+        <nav class="header">
+            <img src="\images\Logo.png" alt="logo de l'entreprise Nexcent"/>
             <ul class="flex">
-                    <li><a class="a_nav p" href="#">Home</a></li>
+                    <li><a class="p" href="#">Home</a></li>
                     <li><a class="a_nav p" href="#">Service</a></li>
-                    <li><a class="a_nav p" href="#">Feature</a></li>
-                    <li><a class="a_nav p" href="#">Product</a></li>
-                    <li><a class="a_nav p" href="#">Testomonial</a></li>
-                    <li><a class="a_nav p" href="#">FAQ</a></li>
+                    <li><a class="p" href="#">Feature</a></li>
+                    <li><a class="p" href="#">Product</a></li>
+                    <li><a class="p" href="#">Testomonial</a></li>
+                    <li><a class="p" href="#">FAQ</a></li>
             </ul>
-        </nav>
-        <div class="flex connect">
+            <div class="flex connect">
                 <a class="txt_14 txt_green button_empty fit_content" href="#">Login</a>
-                <a class="txt_14 txt_white button_full_small fit_content" href="#">Sign up</a>
-        </div>
+                <a class="p button_full_small fit_content" href="#">Sign up</a>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="hero flex">
-            <div class="flex_col gap_2rem">
-                <div class="flex_col flex">
-                    <h1 class="h1">Lessons and insights<br><span class="txt_green">from 8 years</span>
-                    </h1>
-                    <p class="p">Where to grow your business as a photographer: site or social media?
+        <section class="bgb">
+            <div class=" hero flex">
+                <div class="flex_col gap_2rem">
+                    <div>
+                        <h1 class="h1">Lessons and insights<br><span class="txt_green">from 8 years</span>
+                        </h1>
+                        <p class="p">Where to grow your business as a photographer: site or social media?
+                        </p>
+                    </div>
+                    <a class="p button_full_default" href="#">Register</a>
+                </div>
+                <img class="img_hero" src="\images\hero_image.png" alt="image d'un ordinateur montrant des langages de programmation" title="image d'une personne en train de coder"/>
+            </div>
+        </section>
+        <section class="flex_col align_center">
+            <div class="flex_col clients_section">
+                <div class="flex_col clients_text align_center">
+                    <h2 class="h2">Our Clients</h2>
+                    <p class="p_center">We have been working with some Fortune 500+ clients</p>
+                </div>
+                <div class="clients_logos">
+                    <img src="\images\client1.png" alt="logo client 1"/>
+                    <img src="\images\client2.png" alt="logo client 2"/>
+                    <img src="\images\client3.png" alt="logo client 3"/>
+                    <img src="\images\client4.png" alt="logo client 4"/>
+                    <img src="\images\client5.png" alt="logo client 5"/>
+                    <img src="\images\client6.png" alt="logo client 6"/>
+                    <img src="\images\client7.png" alt="logo client 7"/>
+                </div>
+            </div>
+        </section>
+        <section class="flex_col align_center">
+            <div class="flex_col community_section">
+                <div class="flex_col community_text align_center">
+                    <h2 class="h2 txt_center">Manage your entire community<br>in a single system</h2>
+                    <p class="p_center">Who is Nextcent suitable for?
                     </p>
                 </div>
-                <button class="button_full_default txt_white">Register</button>
-            </div>
-            <img class="img_hero" src="\images\hero_image.png" alt="image d'un ordinateur montrant des langages de programmation" title="image d'une personne en train de coder"/>
-        </section>
-        <section class="flex_col clients_section">
-            <div class="flex_col clients_text">
-                <h2 class="h2">Our Clients</h2>
-                <p class="p_center">We have been working with some Fortune 500+ clients</p>
-            </div>
-            <div class="clients_logos">
-                <img src="\images\client1.png" alt="logo client 1"/>
-                <img src="\images\client2.png" alt="logo client 2"/>
-                <img src="\images\client3.png" alt="logo client 3"/>
-                <img src="\images\client4.png" alt="logo client 4"/>
-                <img src="\images\client5.png" alt="logo client 5"/>
-                <img src="\images\client6.png" alt="logo client 6"/>
-                <img src="\images\client7.png" alt="logo client 7"/>
-            </div>
-        </section>
-        <section class="flex_col community_section">
-            <div class="flex_col community_text">
-                <h2 class="h2 txt_center">Manage your entire community<br>in a single system</h2>
-                <p class="p_center">Who is Nextcent suitable for?
-                </p>
-            </div>
-            <div class="flex services">
-                <div class="flex_col community_cards">
-                    <div class="flex_col gap_1rem">
-                        <img class="services_icon" src="\images\icon1.png" alt="logo d'adhésion"/>
-                        <h3 class="h3 txt_center">Membership Organisations</h3>
+                <div class="flex services">
+                    <div class="flex_col community_cards">
+                        <div class="flex_col gap_1rem align_center">
+                            <img class="services_icon" src="\images\icon1.png" alt="logo d'adhésion"/>
+                            <h3 class="h3 txt_center">Membership Organisations</h3>
+                        </div>
+                        <p class="txt_14 txt_center services_text">Our membership management software provides full automation of membership renewals and payments
+                        </p>
+                    </div>
+                    <div class="flex_col community_cards">
+                        <div class="flex_col gap_1rem align_center">
+                            <img class="services_icon" src="\images\icon2.png" alt="logo d'adhésion"/>
+                            <h3 class="h3 txt_center">National<br> Associations</h3>
+                        </div>
+                        <p class="txt_14 txt_center services_text">Our membership management software provides full automation of membership renewals and payments
+                        </p>
+                    </div>
+                    <div class="flex_col community_cards">
+                        <div class="flex_col gap_1rem align_center">
+                            <img class="services_icon" src="\images\icon3.png" alt="logo d'adhésion"/>
+                            <h3 class="h3 txt_center">Clubs And<br> Groups</h3>
                     </div>
                     <p class="txt_14 txt_center services_text">Our membership management software provides full automation of membership renewals and payments
-                    </p>
-                </div>
-                <div class="flex_col community_cards">
-                    <div class="flex_col gap_1rem">
-                        <img class="services_icon" src="\images\icon2.png" alt="logo d'adhésion"/>
-                        <h3 class="h3 txt_center">National<br> Associations</h3>
+                        </p>
                     </div>
-                    <p class="txt_14 txt_center services_text">Our membership management software provides full automation of membership renewals and payments
-                    </p>
-                </div>
-                <div class="flex_col community_cards">
-                    <div class="flex_col gap_1rem">
-                        <img class="services_icon" src="\images\icon3.png" alt="logo d'adhésion"/>
-                        <h3 class="h3 txt_center">Clubs And<br> Groups</h3>
-                   </div>
-                   <p class="txt_14 txt_center services_text">Our membership management software provides full automation of membership renewals and payments
-                    </p>
                 </div>
             </div>
         </section>
-        <section class="flex unlock">
-            <img src="\images\img_unlock.png" alt="image d'une personne en train d'écrire sur un écran"/>
-            <div>
-                <div class="flex_col gap_1rem">
-                    <h2 class="h2">The unseen of spending three years at Pixelgrade
-                    </h2>
-                    <p class="txt_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
-                    </p>
+        <section class="bgb">
+            <div class="flex unlock_section">
+                <img src="\images\img_unlock.png" alt="image d'une personne en train d'écrire sur un écran"/>
+                <div class="flex_col unlock_right_block">
+                    <div class="flex_col gap_2rem">
+                        <div class="flex_col gap_1rem">
+                            <h2 class="h2">The unseen of spending three<br> years at Pixelgrade
+                            </h2>
+                            <p class="txt_14 unlock_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+                            </p>
+                        </div>
+                        <a class="p button_full_default" href="#">Learn More</a>
+                    </div>
                 </div>
-
             </div>
-
+        </section>
+        <section">
+            <div class="grid achievements_section">
+                <div class="flex_col gap_05rem margin_auto">
+                    <h2 class="h2">Helping a local<br><span class="txt_green">business reinvent itself</span></h2>
+                    <p class="p">We reached here with our hard work and dedication</p>
+                </div>
+                <div class="grid_counts fit_content">
+                    <div class="flex gap_1rem counts_card">
+                        <img src="\images\countlogo1.png" alt="logo count 1">
+                        <div class="flex_col">
+                            <h3 class="h3">2,245,341</h3>
+                            <p class="p">Members</p>
+                        </div>
+                    </div>
+                    <div class="flex gap_1rem counts_card">
+                        <img src="\images\countlogo2.png" alt="logo count 2">
+                        <div class="flex_col">
+                            <h3 class="h3">46,328</h3>
+                            <p class="p">Clubs</p>
+                        </div>
+                    </div>
+                    <div class="flex gap_1rem counts_card">
+                        <img src="\images\countlogo3.png" alt="logo count 3">
+                        <div class="flex_col">
+                            <h3 class="h3">828,867</h3>
+                            <p class="p">Event Bookings</p>
+                        </div>
+                    </div>
+                    <div class="flex gap_1rem counts_card">
+                        <img src="\images\countlogo4.png" alt="logo count 4">
+                        <div class="flex_col">
+                            <h3 class="h3">1,926,436</h3>
+                            <p class="p">Payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="bgb">
+            <div class="flex calender_section">
+                <img src="\images\img_calender.png" alt="image d'une personne en train d'écrire sur un écran"/>
+                <div class="flex_col calender_right_block">
+                    <div class="flex_col gap_2rem">
+                        <div class="flex_col gap_1rem">
+                            <h2 class="h2">How to design your site footer like we did
+                            </h2>
+                            <p class="txt_14 unlock_text">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+                            </p>
+                        </div>
+                        <a class="p button_full_default" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex customer_section align_start">
+                <img src="\images\img_customer.png" alt="photo d'un client de Nexcent, homme aux cheveux noirs avec une barbe d'une semaine">
+                <div class="flex_col customer_right_block">
+                    <div class="p customer_text">
+                        Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                    </div>
+                    <div class="flex_col gap_05rem">
+                        <h4 class="h4 txt_green">Tim Smith</h4>
+                        <p class="p">British Dragon Boat Racing Association</p>
+                    </div>
+                    <div class="flex customers_bar">
+                        <div class="clients_logos_small">
+                            <img src="\images\client1.png" alt="logo client 1"/>
+                            <img src="\images\client2.png" alt="logo client 2"/>
+                            <img src="\images\client3.png" alt="logo client 3"/>
+                            <img src="\images\client4.png" alt="logo client 4"/>
+                            <img src="\images\client5.png" alt="logo client 5"/>
+                            <img src="\images\client6.png" alt="logo client 6"/>
+                        </div>
+                        <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                            <h4 class="h4 txt_green">Meet all customers</h4>
+                            <img class="customer_arrow" src="\images\arrow_icon.png" alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex_col align_center blog_section">
+                <div class="flex_col blog_top align_center">
+                    <h2 class="h2">Caring is the new marketing</h2>
+                    <p class="p_center">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more
+                    ​</p>
+                </div>
+                <div class="flex blog_bottom">
+                    <div class="blog_article">
+                        <img src="images\img_blog1.png" alt="">
+                        <div class="flex_col blog_card align_center">
+                            <h4 class="h4 align_center blog_title">Creating Streamlined Safeguarding Processes with OneRen</h4>
+                            <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                                <h4 class="h4 txt_green">Read more</h4>
+                                <img src="\images\arrow_icon.png" alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog_article">
+                        <img src="images\img_blog2.png" alt="">
+                        <div class="flex_col blog_card align_center">
+                            <h4 class="h4 align_center blog_title">What are your safeguarding responsibilities and how can you manage them?</h4>
+                            <a class="flex gap_05rem"href="https://www.google.com" target="_blank">
+                                <h4 class="h4 txt_green">Read more</h4>
+                                <img src="\images\arrow_icon.png" alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog_article">
+                        <img src="images\img_blog3.png" alt="">
+                        <div class="flex_col blog_card align_center">
+                            <h4 class="h4 align_center blog_title">Revamping the Membership Model with Triathlon<br> Australia</h4>
+                            <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                                <h4 class="h4 txt_green">Read more</h4>
+                                <img src="\images\arrow_icon.png" alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex_col demo_section align_center">
+            <h3 class="h1bis txt_center margin_auto demo_title">Pellentesque suscipit fringilla libero eu.</h3>
+            <a class="p button_full_default" href="#">Get a Demo
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                <path d="M10.2502 7.39892L12.7199 4.92919C13.0129 4.63629 13.0129 4.1614 12.7199 3.8685L10.2502 1.39877M12.5003 4.39885L1.5 4.39885" stroke="white" stroke-width="1.1" stroke-linecap="round"/>
+                </svg>
+            </a>
         </section>
     </main>
-    
+    <footer>
+        <div class="flex footer_section">
+            <div class="flex_col footer_company_info">
+                <img src="\images\logo_footer.png" alt="logo de l'entreprise Nexcent">
+                <div class="flex_col copyright gap_05rem">
+                    <p class="p_footer footer_color">Copyright © 2020 Nexcent ltd.</p>
+                    <p class="p_footer footer_color">All rights reserved</p>
+                </div>
+                <div class="flex social_icons">
+                    <a href="#">
+                        <img src="\images\social_icon1.png" alt="logo du reseau social instagram"/>
+                    </a>
+                    <a href="#">
+                        <img src="\images\social_icon2.png" alt="logo du reseau social dribbble"/>
+                    </a>
+                    <a href="#">
+                        <img src="\images\social_icon3.png" alt="logo du reseau social x"/>
+                    </a>
+                    <a href="#">
+                        <img src="\images\social_icon4.png" alt="logo du reseau social youtube"/>
+                    </a>
+                </div>
+            </div>
+            <div class="flex footer_links">
+                <div class="flex_col links_block">
+                    <h4 class="h4 txt_white">Company</h4>
+                    <div class="flex_col">
+                        <ul class="flex_col links_gap">
+                            <li><a class="p_footer" href="#">About us</a></li>
+                            <li><a class="p_footer" href="#">Blog</a></li>
+                            <li><a class="p_footer" href="#">Contact us</a></li>
+                            <li><a class="p_footer" href="#">Pricing</a></li>
+                            <li><a class="p_footer" href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex_col links_block">
+                    <h4 class="h4 txt_white">Support</h4>
+                    <div class="flex_col">
+                        <ul class="flex_col links_gap">
+                            <li><a class="p_footer" href="#">Help center</a></li>
+                            <li><a class="p_footer" href="#">Terms of service</a></li>
+                            <li><a class="p_footer" href="#">Legal</a></li>
+                            <li><a class="p_footer" href="#">Privacy policy</a></li>
+                            <li><a class="p_footer" href="#">Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex_col footer_email_block">
+                    <h4 class="h4 txt_white">Stay up to date</h4>
+                    <form class="flex_between footer_email">
+                        <input type="email" placeholder="Your email address" class="input_type_email" id="color_email" required>
+                        <input type="image" src="\images\send_icon.png" alt="button to submit email address" class="send_icon">
+                    </form>
+                    <!-- <div class="flex footer_email">
+                        <p class=" flex txt_14" id="color_email">Your email address
+                        </p> -->
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
