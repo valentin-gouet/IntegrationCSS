@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <nav class="header">
+        <nav class="header max_width">
             <img src="\images\Logo.png" alt="logo de l'entreprise Nexcent" />
             <ul class="flex">
                 <li><a class="p" href="#">Home</a></li>
@@ -35,23 +35,25 @@
         </nav>
     </header>
     <main>
-        <section class="hero flex">
-            <div class="hero_content">
-                <div class="title_container">
-                    <h1 class="h1">Lessons and insights<br><span class="txt_green">from 8 years</span>
-                    </h1>
-                    <p class="p">Where to grow your business as a photographer: site or social media?
-                    </p>
+        <section class="hero_section">
+            <section class="hero_content max_width">
+                <div class="hero_text">
+                    <div class="title_container">
+                        <h1 class="h1">Lessons and insights<br><span class="txt_green">from 8 years</span>
+                        </h1>
+                        <p class="p">Where to grow your business as a photographer: site or social media?
+                        </p>
+                    </div>
+                    <a class="p button_full_default" href="#">Register</a>
                 </div>
-                <a class="p button_full_default" href="#">Register</a>
-            </div>
-            <img class="img_hero" src="\images\hero_image.png"
-                alt="image d'un ordinateur montrant des langages de programmation"
-                title="image d'une personne en train de coder" />
-        </section>
-        <section class="flex_col align_center">
-            <div class="flex_col clients_section">
-                <div class="flex_col clients_text align_center">
+                <img class="img_hero" src="\images\hero_image.png"
+                    alt="image d'un ordinateur montrant des langages de programmation"
+                    title="image d'une personne en train de coder" />
+            </section>
+        </section>    
+        <section class="clients_section flex_col_center">
+            <div class="clients_content max_width">
+                <div class="flex_col_center clients_text">
                     <h2 class="h2">Our Clients</h2>
                     <p class="p_center">We have been working with some Fortune 500+ clients</p>
                 </div>
@@ -66,9 +68,9 @@
                 </div>
             </div>
         </section>
-        <section class="flex_col align_center">
-            <div class="flex_col community_section">
-                <div class="flex_col community_text align_center">
+        <section class="community_section flex_col_center">
+            <section class="community_content max_width">
+                <div class="gap_05rem flex_col_center">
                     <h2 class="h2 txt_center">Manage your entire community<br>in a single system</h2>
                     <p class="p_center">Who is Nextcent suitable for?
                     </p>
@@ -102,56 +104,58 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
-        <section class="flex unlock_section">
-            <img class="unlock_img" src="\images\img_unlock.png"
-                alt="image d'une personne en train d'écrire sur un écran" />
-            <div class="flex_col unlock_right_block">
-                <div class="flex_col gap_2rem">
-                    <div class="flex_col gap_1rem">
-                        <h2 class="h2">The unseen of spending three<br> years at Pixelgrade
-                        </h2>
-                        <p class="txt_14 unlock_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque
-                            placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar
-                            sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus
-                            sem. Donec elementum pulvinar odio.
-                        </p>
+        <section class="unlock_section">
+            <section class="unlock_content max_width">
+                <img class="unlock_img" src="\images\img_unlock.png"
+                    alt="image d'une personne en train d'écrire sur un écran" />
+                <div class="flex_col unlock_right_block">
+                    <div class="flex_col gap_2rem">
+                        <div class="flex_col gap_1rem">
+                            <h2 class="h2">The unseen of spending three<br> years at Pixelgrade
+                            </h2>
+                            <p class="txt_14 unlock_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                                sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque
+                                placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar
+                                sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus
+                                sem. Donec elementum pulvinar odio.
+                            </p>
+                        </div>
+                        <a class="p button_full_default" href="#">Learn More</a>
                     </div>
-                    <a class="p button_full_default" href="#">Learn More</a>
                 </div>
-            </div>
+            </section>    
         </section>
-        <section>
-            <div class="grid achievements_section">
+        <section class="achievements_section">
+            <div class="grid achievements_content max_width">
                 <div class="achievements_text">
                     <h2 class="h2">Helping a local<br><span class="txt_green">business reinvent itself</span></h2>
                     <p class="p">We reached here with our hard work and dedication</p>
                 </div>
-                <div class="grid_counts fit_content">
-                    <div class="flex gap_1rem counts_card">
+                <div class="grid_counts">
+                    <div class="flex gap_1rem fit_content">
                         <img src="\images\countlogo1.png" alt="logo count 1">
                         <div class="flex_col">
                             <h3 class="h3">2,245,341</h3>
                             <p class="p">Members</p>
                         </div>
                     </div>
-                    <div class="flex gap_1rem counts_card">
+                    <div class="flex gap_1rem fit_content">
                         <img src="\images\countlogo2.png" alt="logo count 2">
                         <div class="flex_col">
                             <h3 class="h3">46,328</h3>
                             <p class="p">Clubs</p>
                         </div>
                     </div>
-                    <div class="flex gap_1rem counts_card">
+                    <div class="flex gap_1rem fit_content">
                         <img src="\images\countlogo3.png" alt="logo count 3">
                         <div class="flex_col">
                             <h3 class="h3">828,867</h3>
                             <p class="p">Event Bookings</p>
                         </div>
                     </div>
-                    <div class="flex gap_1rem counts_card">
+                    <div class="flex gap_1rem fit_content">
                         <img src="\images\countlogo4.png" alt="logo count 4">
                         <div class="flex_col">
                             <h3 class="h3">1,926,436</h3>
@@ -162,10 +166,10 @@
             </div>
         </section>
         <section class="calender_section">
-            <div class="calender_content">
+            <div class="calender_content max_width">
                 <img src="\images\img_calender.png" alt="image d'une personne en train d'écrire sur un écran" />
                 <div class="flex_col calender_right_block">
-                    <div class="calender_text gap_2rem">
+                    <div class="flex_col gap_2rem">
                         <!-- <div class="flex_col gap_1rem"> -->
                         <h2 class="h2">How to design your site footer like we did
                         </h2>
@@ -184,7 +188,7 @@
             </div>
         </section>
         <section class="customer_section">
-            <div class="customer_content">
+            <div class="customer_content max_width">
                 <img src="\images\img_customer.png"
                     alt="photo d'un client de Nexcent, homme aux cheveux noirs avec une barbe d'une semaine">
                 <div class="flex_col customer_right_block">
@@ -210,7 +214,7 @@
                             <img src="\images\client5.png" alt="logo client 5" />
                             <img src="\images\client6.png" alt="logo client 6" />
                         </div>
-                        <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                        <a class="flex gap_05rem" href="#" target="_blank">
                             <h4 class="h4 txt_green">Meet all customers</h4>
                             <img class="customer_arrow" src="\images\arrow_icon.png"
                                 alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
@@ -219,67 +223,71 @@
                 </div>
             </div>
         </section>
-        <section class="flex_col align_center blog_section">
-            <div class="flex_col blog_top align_center">
-                <h2 class="h2">Caring is the new marketing</h2>
-                <p class="p_center">The Nexcent blog is the best place to read about the latest membership insights,
-                    trends and more. See who's joining the community, read about how our community are increasing
-                    their membership income and lot's more
-                    ​</p>
-            </div>
-            <div class="flex blog_bottom">
-                <div class="blog_article">
-                    <img src="images\img_blog1.png" alt="">
-                    <div class="flex_col blog_card align_center">
-                        <h4 class="h4 align_center blog_title">Creating Streamlined Safeguarding Processes with
-                            OneRen</h4>
-                        <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
-                            <h4 class="h4 txt_green">Read more</h4>
-                            <img src="\images\arrow_icon.png"
-                                alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
-                        </a>
+        <section class="blog_section">
+            <section class="flex_col_center blog_content max_width">
+                <div class="flex_col blog_top align_center">
+                    <h2 class="h2">Caring is the new marketing</h2>
+                    <p class="p_center">The Nexcent blog is the best place to read about the latest membership insights,
+                        trends and more. See who's joining the community, read about how our community are increasing
+                        their membership income and lot's more
+                        ​</p>
+                </div>
+                <div class="flex blog_bottom">
+                    <div class="blog_article">
+                        <img src="images\img_blog1.png" alt="">
+                        <div class="flex_col blog_card align_center">
+                            <h4 class="h4 align_center blog_title">Creating Streamlined Safeguarding Processes with
+                                OneRen</h4>
+                            <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                                <h4 class="h4 txt_green">Read more</h4>
+                                <img src="\images\arrow_icon.png"
+                                    alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog_article">
+                        <img src="images\img_blog2.png" alt="">
+                        <div class="flex_col blog_card align_center">
+                            <h4 class="h4 align_center blog_title">What are your safeguarding responsibilities and how
+                                can you manage them?</h4>
+                            <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                                <h4 class="h4 txt_green">Read more</h4>
+                                <img src="\images\arrow_icon.png"
+                                    alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog_article">
+                        <img src="images\img_blog3.png" alt="">
+                        <div class="flex_col blog_card align_center">
+                            <h4 class="h4 align_center blog_title">Revamping the Membership Model with Triathlon<br>
+                                Australia</h4>
+                            <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
+                                <h4 class="h4 txt_green">Read more</h4>
+                                <img src="\images\arrow_icon.png"
+                                    alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="blog_article">
-                    <img src="images\img_blog2.png" alt="">
-                    <div class="flex_col blog_card align_center">
-                        <h4 class="h4 align_center blog_title">What are your safeguarding responsibilities and how
-                            can you manage them?</h4>
-                        <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
-                            <h4 class="h4 txt_green">Read more</h4>
-                            <img src="\images\arrow_icon.png"
-                                alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
-                        </a>
-                    </div>
-                </div>
-                <div class="blog_article">
-                    <img src="images\img_blog3.png" alt="">
-                    <div class="flex_col blog_card align_center">
-                        <h4 class="h4 align_center blog_title">Revamping the Membership Model with Triathlon<br>
-                            Australia</h4>
-                        <a class="flex gap_05rem" href="https://www.google.com" target="_blank">
-                            <h4 class="h4 txt_green">Read more</h4>
-                            <img src="\images\arrow_icon.png"
-                                alt="flèche verte dirigée vers la droite menant aux clients de l'entreprise">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </section>
         </section>
-        <section class="flex_col demo_section align_center">
-            <h3 class="h1bis txt_center margin_auto demo_title">Pellentesque suscipit fringilla libero eu.</h3>
-            <a class="p button_full_default" href="#">Get a Demo
-                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
-                    fill="none">
-                    <path
-                        d="M10.2502 7.39892L12.7199 4.92919C13.0129 4.63629 13.0129 4.1614 12.7199 3.8685L10.2502 1.39877M12.5003 4.39885L1.5 4.39885"
-                        stroke="white" stroke-width="1.1" stroke-linecap="round" />
-                </svg>
-            </a>
-        </section>
+        <section class="demo_section">
+            <section class="demo_content flex_col_center max_width">
+                <h3 class="h1bis demo_title txt_center">Pellentesque suscipit fringilla libero eu.</h3>
+                <a class="p button_full_default" href="#">Get a Demo
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8"
+                        fill="none">
+                        <path
+                            d="M10.2502 7.39892L12.7199 4.92919C13.0129 4.63629 13.0129 4.1614 12.7199 3.8685L10.2502 1.39877M12.5003 4.39885L1.5 4.39885"
+                            stroke="white" stroke-width="1.1" stroke-linecap="round" />
+                    </svg>
+                </a>
+            </section>
+        </section>    
     </main>
     <footer>
-        <div class="flex footer_section">
+        <div class="footer_section flex max_width">
             <div class="flex_col footer_company_info">
                 <img src="\images\logo_footer.png" alt="logo de l'entreprise Nexcent">
                 <div class="flex_col copyright gap_05rem">
@@ -336,7 +344,7 @@
                     </form>
                 </div>
             </div>
+        </div>
     </footer>
 </body>
-
 </html>
